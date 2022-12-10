@@ -114,6 +114,7 @@ hr {
   margin-right: 25px;
   width: 800px;
 }
+
 .hot-topic img {
   width: 800px;
 }
@@ -121,9 +122,27 @@ hr {
   color: #479ccb;
   margin-block: 10px;
 }
+.hot-topic h2:hover {
+  color: #7ac14e;
+  cursor: pointer;
+}
+.hot-topic h1 {
+  color: #7ac14e;
+}
+.hot-topic h3 {
+  margin-block: 15px;
+}
 .hot-topic p {
   margin-bottom: 10px;
 }
+.hot-topic .title--image {
+  color: #757575;
+  margin-top: 10px;
+}
+.hot-topic .details {
+  line-height: 30px;
+}
+
 .banner--main--right h4 {
   border-bottom-style: dotted;
   border-bottom-width: 0.5px;
@@ -153,7 +172,27 @@ hr {
   padding-top: 20px;
   width: 800px;
 }
-
+.banner--bottom--detail {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+/* .banner--bottom--detail .banner--bottom--left,
+.banner--bottom--right {
+  width: 10px;
+} */
+.banner--bottom--detail .hot-topic {
+  border-top: 0.5px solid black;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.banner--bottom--detail .hot-topic img {
+  width: 300px;
+}
+.banner--bottom--detail h4 {
+  width: 500px;
+  height: 50px;
+}
 footer {
   display: flex;
   background-color: #cbfbae;
